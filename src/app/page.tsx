@@ -5,6 +5,7 @@ import Markdown from "react-markdown";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import { ResumeCard } from "@/components/shared/resume-card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -86,6 +87,27 @@ const App = () => {
 							/>
 						</BlurFade>
 					))}
+				</div>
+			</section>
+			<section id="skills">
+				<div className="flex min-h-0 flex-col gap-y-3">
+					<BlurFade delay={BLUR_FADE_DELAY * 9}>
+						<h2 className="text-xl font-bold">Skills</h2>
+					</BlurFade>
+					<div className="grid grid-cols-6 gap-8 items-start">
+						{DATA.skills.map((skill) => (
+							<BlurFade key={skill.id} delay={BLUR_FADE_DELAY * 10 + parseInt(skill.id) * 0.05}>
+								<Card className="w-max mx-auto">
+									<CardHeader>
+										<CardTitle className="w-max flex flex-col gap-3 text-lg font-normal tracking-wide">
+											<skill.icon className="size-8 mx-auto" />
+											<span>{skill.name}</span>
+										</CardTitle>
+									</CardHeader>
+								</Card>
+							</BlurFade>
+						))}
+					</div>
 				</div>
 			</section>
 		</main>
