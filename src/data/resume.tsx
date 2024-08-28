@@ -109,4 +109,38 @@ export const DATA = {
 		{ id: "16", name: "AWS Lambda", icon: Icons.awsLambda },
 		{ id: "17", name: "GitHub", icon: Icons.github },
 	],
+	projects: [
+		{
+			title: "My Portfolio",
+			href: "https://portfolio-nu-nine-23.vercel.app/",
+			dates: "Jan 2024 - Feb 2024",
+			active: true,
+			description: "Designed and Developed this portfolio with 💖.",
+			technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI", "Magic UI"],
+			links: [
+				{
+					type: "Website",
+					href: "https://portfolio-nu-nine-23.vercel.app/",
+					icon: <Icons.globe className="size-3" />,
+				},
+			],
+			image: "/portfolio.png",
+		},
+		{
+			title: "Valorant Champions 2024 Fantasy League",
+			href: "https://vct24.vercel.app",
+			dates: "July 2023 - Present",
+			active: true,
+			description: "An online fantasy game for the Esports Tournament of Valorant for 2024 Season.",
+			technologies: ["Next.js", "Typescript", "Drizzle", "PostgreSQL", "TailwindCSS", "Shadcn UI"],
+			links: [
+				{
+					type: "Website",
+					href: "https://vct24.vercel.app",
+					icon: <Icons.globe className="size-3" />,
+				},
+			],
+			image: "/valorant.png",
+		},
+	],
 } as const;
