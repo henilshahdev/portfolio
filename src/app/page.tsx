@@ -23,13 +23,13 @@ const App = () => {
 								text={`👋 Hi, I'm Henil Shah`}
 							/>
 							<BlurFadeText
-								className="max-w-[600px] md:text-xl mt-6"
+								className="max-w-[350px] sm:max-w-[500px] lg:max-w-[600px] md:text-xl"
 								delay={BLUR_FADE_DELAY}
 								text={DATA.description}
 							/>
 						</div>
 						<BlurFade delay={BLUR_FADE_DELAY}>
-							<Avatar className="size-36 border">
+							<Avatar className="size-16 sm:size-24 md:size-28 lg:size-28 xl:size-32 border">
 								<AvatarImage alt="Henil Shah" src="https://github.com/henilshahdev.png" />
 								<AvatarFallback>HS</AvatarFallback>
 							</Avatar>
@@ -94,12 +94,12 @@ const App = () => {
 					<BlurFade delay={BLUR_FADE_DELAY * 9}>
 						<h2 className="text-xl font-bold">Skills</h2>
 					</BlurFade>
-					<div className="grid grid-cols-6 gap-8 items-start">
+					<div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-8 items-start">
 						{DATA.skills.map((skill) => (
 							<BlurFade key={skill.id} delay={BLUR_FADE_DELAY * 10 + parseInt(skill.id) * 0.05}>
 								<Card className="w-max mx-auto">
 									<CardHeader>
-										<CardTitle className="w-max flex flex-col gap-3 text-lg font-normal tracking-wide">
+										<CardTitle className="w-max flex flex-col gap-3 text-sm font-normal tracking-wide">
 											<skill.icon className="size-8 mx-auto" />
 											<span>{skill.name}</span>
 										</CardTitle>
