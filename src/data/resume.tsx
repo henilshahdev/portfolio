@@ -72,4 +72,22 @@ export const DATA = {
 			],
 		},
 	],
+	education: [
+		{
+			school: "Douglas College",
+			href: "https://www.douglascollege.ca/",
+			degree: "Post Bacc Diploma in Computing and Information Systems",
+			logoUrl: "https://www.douglascollege.ca/themes/douglas/img/douglas-logo-reversed.svg",
+			start: "2019",
+			end: "2021",
+		},
+		{
+			school: "University of Mumbai",
+			href: "https://www.douglascollege.ca/",
+			degree: "Bachelor's in Science with Information Technology",
+			logoUrl: "https://www.douglascollege.ca/themes/douglas/img/douglas-logo-reversed.svg",
+			start: "2015",
+			end: "2018",
+		},
+	],
 } as const;
