@@ -40,4 +40,36 @@ export const DATA = {
 	},
 	summary:
 		"At the beginning of 2023, I was laid off from a startup as a Software Engineer (Frontend Focussed). Since then I have been working as a Web Development Instructor teaching 40+ aspiring students in Canada. In the past, I pursued a Bachelor's degree in Computer Science with Information Technology as my major. I generally end up creating more bugs for myself right when I jump to new tools and technologies JUST FOR FUN. I do love creating side projects during the weekends.",
+	work: [
+		{
+			company: "Cornerstone International Community College of Canada",
+			href: "https://ciccc.ca",
+			badges: [],
+			location: "Vancouver, BC. Canada",
+			title: "Web Development Instructor",
+			logoUrl: "https://ciccc.ca/wp-content/themes/cornerstone-template/assets/images/logo.svg",
+			start: "Aug 2023",
+			end: "Present",
+			description: [
+				"Delivering interactive and comprehensive lectures on Web Development by covering core programming principles contributing to career development of over 40 students.",
+				"Teaching crucial Full Stack Development skills (OOP, Big O Notations, DBMS, Node.js, React.js/Next.js) by constantly updating the course materials with latest updates empowering students with latest knowledge base.",
+			],
+		},
+		{
+			company: "AiDANT Intelligent Technology Inc.",
+			href: "https://aidant.ai",
+			badges: [],
+			location: "Vancouver, BC. Canada",
+			title: "Software Engineer",
+			logoUrl:
+				"https://yt3.googleusercontent.com/JBUbqyB5lzz2Qpf1VBDGez-5nYUEzdmFCWLOPlNa2923NoxGHJOuxny4AT7z4y2wfPOwWnY5JcM=s160-c-k-c0x00ffffff-no-rj",
+			start: "Aug 2021",
+			end: "Mar 2023",
+			description: [
+				"Optimized the server by 78% by downsizing the payload sent for each push notification for a Flutter App resulting in faster speed from 32 to 7 seconds on average.",
+				"Enhanced user engagement by 40% by designing a user-friendly web application by using React.js, Bootstrap and Apache Web Server.",
+				"Reduced post-release defects and bugs by adhering to code review sessions and following best practices for development and documentation resulting in a 60% impact.",
+			],
+		},
+	],
 } as const;
