@@ -64,7 +64,7 @@ export function ProjectCard({ title, href, description, dates, tags, link, image
 			</CardContent>
 			<CardFooter className="px-4 pb-4">
 				{links && links.length > 0 && (
-					<div className="w-full grid grid-cols-2 gap-8 items-center">
+					<div className="w-full grid grid-cols-2 gap-3 items-center">
 						{links?.map((link, idx) => (
 							<Link href={link?.href} key={idx} target="_blank">
 								<Badge key={idx} className="flex gap-2 p-2 text-xs">

@@ -112,7 +112,7 @@ export const DATA = {
 	projects: [
 		{
 			title: "My Portfolio",
-			href: "https://portfolio-nu-nine-23.vercel.app/",
+			href: "https://henilshah.vercel.app/",
 			dates: "Jan 2024 - Feb 2024",
 			active: true,
 			description: "Designed and Developed this portfolio with 💖.",
@@ -127,11 +127,32 @@ export const DATA = {
 			image: "/portfolio.png",
 		},
 		{
+			title: "Chitra: Database Diagram Maker",
+			href: "https://chitraa.netlify.app",
+			dates: "May 2024 - Present",
+			active: true,
+			description: "An intuitive entity relationship diagram visualizer.",
+			technologies: ["React.js", "Typescript", "ReactFlow", "TailwindCSS", "Shadcn UI"],
+			links: [
+				{
+					type: "Website",
+					href: "https://chitraa.netlify.app",
+					icon: <Icons.globe className="size-3" />,
+				},
+				{
+					type: "Source",
+					href: "https://github.com/henilshahdev/chitra",
+					icon: <Icons.globe className="size-3" />,
+				},
+			],
+			image: "/chitra.png",
+		},
+		{
 			title: "Valorant Champions 2024 Fantasy League",
 			href: "https://vct24.vercel.app",
 			dates: "July 2023 - Present",
 			active: true,
-			description: "An online fantasy game for the Esports Tournament of Valorant for 2024 Season.",
+			description: "An online fantasy game for the Esports Tournament of Valorant for the 2024 Season.",
 			technologies: ["Next.js", "Typescript", "Drizzle", "PostgreSQL", "TailwindCSS", "Shadcn UI"],
 			links: [
 				{
@@ -141,6 +162,23 @@ export const DATA = {
 				},
 			],
 			image: "/valorant.png",
+		},
+		{
+			title: "Indian Premier League 2024 Fantasy League",
+			href: "https://iplfl24.vercel.app/",
+			dates: "Feb 2023 - Mar 2023",
+			active: true,
+			description:
+				"An online fantasy game for the game of Cricket especially the Indian Premier League for the 2024 Season.",
+			technologies: ["Next.js", "Typescript", "Mongoose", "MongoDB", "TailwindCSS", "Shadcn UI"],
+			links: [
+				{
+					type: "Website",
+					href: "https://iplfl24.vercel.app/",
+					icon: <Icons.globe className="size-3" />,
+				},
+			],
+			image: "/ipl.png",
 		},
 	],
 } as const;
