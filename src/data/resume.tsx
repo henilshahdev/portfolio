@@ -39,7 +39,7 @@ export const DATA = {
 		},
 	},
 	summary:
-		"At the beginning of 2023, I was laid off from a startup as a Software Engineer (Frontend Focussed). Since then I have been working as a Web Development Instructor teaching 40+ aspiring students in Canada. In the past, I pursued a Bachelor's degree in Computer Science with Information Technology as my major. I generally end up creating more bugs for myself right when I jump to new tools and technologies JUST FOR FUN. I do love creating side projects during the weekends.",
+		"At the beginning of 2023, I transitioned from my role as a Software Engineer (Frontend Focused) at a startup, where I had the opportunity to work on innovative projects. Since then, I've embraced a new challenge as a Web Development Instructor, teaching and mentoring over 40 aspiring students across Canada. My background includes a Bachelor's degree in Computer Science with a major in Information Technology. I am passionate about exploring new tools and technologies, often diving in just for fun—even if it means encountering a few unexpected bugs along the way. During weekends, I love working on side projects that keep my skills sharp and my creativity flowing.",
 	work: [
 		{
 			company: "Cornerstone International Community College of Canada",
@@ -47,7 +47,7 @@ export const DATA = {
 			badges: [],
 			location: "Vancouver, BC. Canada",
 			title: "Web Development Instructor",
-			logoUrl: "https://ciccc.ca/wp-content/themes/cornerstone-template/assets/images/logo.svg",
+			logoUrl: "/ciccc_logo.png",
 			start: "Aug 2023",
 			end: "Present",
 			description: [
@@ -61,8 +61,7 @@ export const DATA = {
 			badges: [],
 			location: "Vancouver, BC. Canada",
 			title: "Software Engineer",
-			logoUrl:
-				"https://yt3.googleusercontent.com/JBUbqyB5lzz2Qpf1VBDGez-5nYUEzdmFCWLOPlNa2923NoxGHJOuxny4AT7z4y2wfPOwWnY5JcM=s160-c-k-c0x00ffffff-no-rj",
+			logoUrl: "/aidant_logo.png",
 			start: "Aug 2021",
 			end: "Mar 2023",
 			description: [
@@ -77,7 +76,7 @@ export const DATA = {
 			school: "Douglas College",
 			href: "https://www.douglascollege.ca/",
 			degree: "Post Bacc Diploma in Computing and Information Systems",
-			logoUrl: "https://www.douglascollege.ca/themes/douglas/img/douglas-logo-reversed.svg",
+			logoUrl: "/douglas_logo.png",
 			start: "2019",
 			end: "2021",
 		},
@@ -85,7 +84,7 @@ export const DATA = {
 			school: "University of Mumbai",
 			href: "https://www.douglascollege.ca/",
 			degree: "Bachelor's in Science with Information Technology",
-			logoUrl: "https://www.douglascollege.ca/themes/douglas/img/douglas-logo-reversed.svg",
+			logoUrl: "/mu_logo.png",
 			start: "2015",
 			end: "2018",
 		},

@@ -42,8 +42,8 @@ export const ResumeCard = ({
 		<Link href={href || "#"} className="block cursor-pointer" onClick={handleClick}>
 			<Card className="flex">
 				<div className="flex-none">
-					<Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
-						<AvatarImage src={logoUrl} alt={altText} className="object-contain" />
+					<Avatar className="border border-muted-foreground size-12 m-auto bg-background">
+						<AvatarImage src={logoUrl} alt={altText} className="object-center scale-150" />
 						<AvatarFallback>{altText[0]}</AvatarFallback>
 					</Avatar>
 				</div>
