@@ -4,10 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
 	description:
 		"Developer during the Days, Debugger in the Nights. I love building things and helping people. Shamelessly active on Twitter.",
-	navbar: [
-		{ href: "/", icon: HomeIcon, label: "Home" },
-		{ href: "/blog", icon: NotebookIcon, label: "Blog" },
-	],
+	navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
 	contact: {
 		email: "henil.601@gmail.com",
 		tel: "++17787510309",
@@ -41,6 +38,28 @@ export const DATA = {
 	summary:
 		"At the beginning of 2023, I transitioned from my role as a Software Engineer (Frontend Focused) at a startup, where I had the opportunity to work on innovative projects. Since then, I've embraced a new challenge as a Web Development Instructor, teaching and mentoring over 40 aspiring students across Canada. My background includes a Bachelor's degree in Computer Science with a major in Information Technology. I am passionate about exploring new tools and technologies, often diving in just for fun—even if it means encountering a few unexpected bugs along the way. During weekends, I love working on side projects that keep my skills sharp and my creativity flowing.",
 	work: [
+		{
+			company: "Postudio",
+			href: "https://postud.io",
+			badges: [],
+			location: "Mumbai, India",
+			title: "Web Developer",
+			logoUrl: "/postudio_logo.png",
+			start: "Apr 2025",
+			end: "Present",
+			description: [
+				"Leading the migration for ProDub v1 to v2, collaborating with designers to translate Figma designs into cohesive dynamic UIs with comprehensive layouts and audio-video timelines.",
+				"Boost production output from 7 to 34 episodes weekly by streamlining editing workflows, directly contributing to a 4x increase in productivity.",
+				"Working across 3 Next.js apps in an NX monorepo, sharing components, hooks, utilities, API endpoints and internal packages to ensure consistency and reduce duplication.",
+				"Maintaining and enhancing ProDub player using React, Next.js & TypeScript, managing complex assets such as videos, audio segments, voice characters and pitches to ease the process of media post-production.",
+				"Engineer a multi-segment audio editing feature with React hooks and state management, enabling consistent actions (undo/redo, drag-and-drop) across multiple audio segments, significantly improving efficiency.",
+				"Leverage SWR for API data management and implement custom data-fetching utilities with strict typecasting, adhering to industry standards and best practices.",
+				"Integrate Python Flask based REST APIs with MongoDB as the database to deliver scalable and efficient backend functionality.",
+				"Implement real-time features using Pusher.js, enhancing responsiveness and improving user experience.",
+				"Facilitating cross-functional collaboration between design, QA, and development teams, ensuring technical feasibility of UI/UX improvements and alignment with product goals.",
+				"Implement best practices in Git workflow and code reviews, improving team productivity and code standards.",
+			],
+		},
 		{
 			company: "Cornerstone International Community College of Canada",
 			href: "https://ciccc.ca",
@@ -117,25 +136,25 @@ export const DATA = {
 	],
 	projects: [
 		{
-			title: "Wigggle",
-			href: "https://wigggle.vercel.app/",
-			dates: "Oct 2024 - Present",
+			title: "Wigggle UI",
+			href: "https://wigggle-ui.vercel.app/",
+			dates: "Oct 2025 - Present",
 			active: true,
 			description: "Open Source Widget Library for the Web.",
 			technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
 			links: [
 				{
 					type: "Website",
-					href: "https://wigggle.vercel.app/",
+					href: "https://wigggle-ui.vercel.app/",
 					icon: <Icons.globe className="size-3" />,
 				},
 				{
 					type: "Source",
-					href: "https://github.com/henilshahdev/wigggle",
+					href: "https://github.com/wigggle-ui/ui",
 					icon: <Icons.globe className="size-3" />,
 				},
 			],
-			image: "/wigggle.png",
+			image: "/wigggle-ui.png",
 		},
 		{
 			title: "My Portfolio",
